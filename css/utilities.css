@@ -1,0 +1,25 @@
+ /* UTILITIES */
+ .white-text-center {
+     color: white;
+     text-align: center;
+ }
+
+ .white-text1 {
+     color: white;
+ }
+
+ .text-center1 {
+     text-align: center;
+ }
+
+ .margin {
+     margin: 0;
+ }
+
+ .padding {
+     padding: 0;
+ }
+
+ .margin-top {
+     margin-top: 12px;
+ }

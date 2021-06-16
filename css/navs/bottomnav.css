@@ -1,0 +1,25 @@
+/* NOTE: WILL ONLY SHOW AT max-width: 600px */
+
+.bottomnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    background-color: #111;
+}
+
+.bottomnav a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+}
+
+.bottomnav a:hover {
+    color: #f1f1f1;
+}

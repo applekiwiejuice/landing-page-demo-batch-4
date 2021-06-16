@@ -1,0 +1,33 @@
+/* NOTE: WILL ONLY SHOW AT max-width: 600px */
+
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+}
+
+.topnav a:hover {
+  color: #f1f1f1;
+}
+
+.sidelogo {
+  width: 20px;
+}
+
+.sidelogo:hover {
+  opacity: 0.8;
+}

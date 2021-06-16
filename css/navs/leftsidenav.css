@@ -1,0 +1,32 @@
+.leftsidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+.leftsidenav a {
+  text-align: center;
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+}
+
+.leftsidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidelogo {
+  width: 60px;
+}
+
+.sidelogo:hover {
+  opacity: 0.8;
+}

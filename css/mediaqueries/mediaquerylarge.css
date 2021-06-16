@@ -1,0 +1,326 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media all and (min-width: 768px) {
+
+  /* LEFTSIDENAV */
+  .leftsidenav {
+    height: 100%;
+    width: 165px;
+    overflow-x: hidden;
+  }
+
+  .leftsidenav a {
+    font-size: 16px;
+  }
+
+  /* RIGHTSIDENAV */
+  .rightsidenav {
+    height: 100%;
+    width: 165px;
+    overflow-y: hidden;
+  }
+
+  .rightsidenav a {
+    font-size: 18px;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  .bottomnav {
+    display: none;
+  }
+
+  /* MAIN */
+  .main {
+    margin-left: 165px;
+    margin-right: 165px;
+    font-size: 25px;
+    padding: 0px 0px;
+  }
+
+  .sidelogo {
+    width: 50px;
+  }
+
+  section {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .topimage {
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+  }
+
+  /* IPHONE12 TOP SECTION */
+  .padding-top-iphone12 {
+    padding-top: 70px;
+  }
+
+  /* SPECIFICATION SECTION */
+  .padding-top-specification {
+    padding-top: 80px;
+  }
+
+  .specification-font-size {
+    font-size: 15px;
+  }
+
+  .specification-font-size-margin {
+    font-size: 15px;
+    margin: 0 50px;
+  }
+
+  /* PRICING SECTION*/
+  .padding-top-pricing {
+    margin-top: 5px;
+    padding-top: 50px;
+  }
+
+  .container_pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  .product_img {
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .product_description {
+    list-style-type: none;
+    margin: 5px auto 5px;
+    width: 50%;
+    font-size: 16px;
+    padding-bottom: 45px;
+  }
+
+  .myButton {
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-top: 15px;
+  }
+
+  /* WATCH SECTION */
+  .container_watch_flex {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 0 20px;
+  }
+
+  .watch_description {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .watch_iframe {
+    width: 100%;
+    height: 50vh;
+    padding-top: 20px;
+  }
+
+  /* FOOTER SECTION */
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    padding: 8px 8px 8px 8px;
+    align-items: center;
+    height: 60px;
+  }
+
+  .submit-feedback {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .submit-feedback:hover {
+    color: #818181;
+  }
+
+  .footer-copyright {
+    font-size: 15px;
+  }
+}
+
+/* Large devices (laptops/desktops, 900px and up) */
+@media all and (min-width: 900px) {
+
+  /* LEFTSIDENAV */
+  .leftsidenav {
+    height: 100%;
+    width: 165px;
+    overflow-x: hidden;
+  }
+
+  .leftsidenav a {
+    font-size: 20px;
+  }
+
+  /* RIGHTSIDENAV */
+  .rightsidenav {
+    height: 100%;
+    width: 165px;
+    overflow-y: hidden;
+  }
+
+  .rightsidenav a {
+    font-size: 18px;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  .bottomnav {
+    display: none;
+  }
+
+  /* MAIN */
+  .main {
+    margin-left: 165px;
+    margin-right: 165px;
+    font-size: 25px;
+    padding: 0px 0px;
+  }
+
+  .sidelogo {
+    width: 55px;
+  }
+
+  section {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .topimage {
+    width: 100%;
+    height: 62vh;
+    margin: 0;
+  }
+
+  /* IPHONE12 TOP SECTION */
+  .padding-top-iphone12 {
+    padding-top: 50px;
+  }
+
+  /* SPECIFICATION SECTION */
+  .padding-top-specification {
+    padding-top: 50px;
+  }
+
+  .specification-font-size {
+    font-size: 20px;
+  }
+
+  .specification-font-size-margin {
+    font-size: 18px;
+    margin: 0 150px;
+  }
+
+  /* PRICING SECTION*/
+  .padding-top-pricing {
+    padding-top: 50px;
+  }
+
+  .container_pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    color: white;
+  }
+
+  .product_img {
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .product_description {
+    list-style-type: none;
+    margin: 5px auto 5px;
+    width: 50%;
+    font-size: 16px;
+    padding-bottom: 45px;
+  }
+
+  .myButton {
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-top: 15px;
+  }
+
+  /* WATCH SECTION */
+  .container_watch_flex {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 0 20px;
+  }
+
+  .watch_description {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .watch_iframe {
+    width: 100%;
+    height: 60vh;
+    padding-top: 30px;
+  }
+
+  /* FOOTER SECTION */
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    padding: 8px 8px 8px 8px;
+    align-items: center;
+    height: 60px;
+  }
+
+  .submit-feedback {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .submit-feedback:hover {
+    color: #818181;
+  }
+
+  .footer-copyright {
+    font-size: 15px;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+  .topimage {
+    width: calc(80%-100px);
+    height: 70vh;
+    margin: 0;
+  }
+}

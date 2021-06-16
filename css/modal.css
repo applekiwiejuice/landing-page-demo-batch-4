@@ -1,0 +1,47 @@
+/*MODAL CSS*/
+
+.btn-modal {
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #7c777e;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn-modal:hover {
+  color: #fff;
+  background-color: #363436;
+  transition: 0.5s;
+}
+
+.labelsub {
+  color: #000;
+}
+
+.check,
+.dont,
+.labelforgot {
+  text-align: center;
+}
+
+.termsandcon,
+.dont {
+  color: blue;
+}
+
+.termsandcon:hover,
+.dont:hover {
+  color: blue;
+}
+
+.labelsignup,
+.labellogin,
+.labelforgot {
+  color: blue;
+}
+
+.labelsignup:hover,
+.labellogin:hover,
+.labelforgot:hover {
+  color: rgb(167, 167, 172);
+}

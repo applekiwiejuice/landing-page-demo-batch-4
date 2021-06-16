@@ -1,0 +1,28 @@
+.main {
+  margin-left: 180px;
+  margin-right: 180px;
+  font-size: 28px;
+  padding: 0px 0px;
+}
+
+.specifications_img {
+  opacity: 0.2;
+}
+
+.pricing_img {
+  opacity: 0.2;
+}
+
+.stores_img {
+  opacity: 0.2;
+}
+
+i {
+  color: #818181;
+
+
+}
+
+i:hover {
+  color: #f1f1f1;
+}
